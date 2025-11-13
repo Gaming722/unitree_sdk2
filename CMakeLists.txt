@@ -56,9 +56,10 @@ target_include_directories(unitree_sdk2 INTERFACE
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>)
 
-if (BUILD_EXAMPLES)
-    add_subdirectory(example)
-endif ()
+# if (BUILD_EXAMPLES)
+#     add_subdirectory(example)
+# endif ()
+add_subdirectory(robot)
 
 ## Install the library
 install(DIRECTORY include/

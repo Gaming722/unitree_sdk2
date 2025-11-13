@@ -1,0 +1,10 @@
+module ROBOT
+{
+struct MotorCmd
+{
+   @key
+   float _q[18];
+   float _kp[18];
+   float _tau[18];
+};
+};
