@@ -1,0 +1,227 @@
+[0.008s] Invoking command in '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.131s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.229s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.319s] -- Detecting CXX compiler ABI info - done
+[0.326s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.327s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.328s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.529s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.535s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.584s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.784s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.120s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.138s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.139s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.157s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.157s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.157s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.157s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.172s] -- Found PythonExtra: .so  
+[1.202s] -- Added test 'lint_cmake' to check CMake code style
+[1.203s] -- Added test 'xmllint' to check XML markup files
+[1.205s] -- Configuring done
+[1.221s] -- Generating done
+[1.227s] -- Build files have been written to: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot
+[1.232s] Invoked command in '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/src/robot -DCMAKE_INSTALL_PREFIX=/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot
+[1.234s] Invoking command in '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot -- -j28 -l28
+[1.276s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.288s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.293s] [  6%] Built target ament_cmake_python_copy_robot
+[1.432s] [  6%] Built target robot__cpp
+[1.433s] [  9%] [32mBuilding C object CMakeFiles/robot__rosidl_generator_c.dir/rosidl_generator_c/robot/msg/detail/motor_cmd__functions.c.o[0m
+[1.440s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.440s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.440s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.468s] [ 22%] [32m[1mLinking C shared library librobot__rosidl_generator_c.so[0m
+[1.468s] running egg_info
+[1.469s] creating robot.egg-info
+[1.469s] writing robot.egg-info/PKG-INFO
+[1.469s] writing dependency_links to robot.egg-info/dependency_links.txt
+[1.469s] writing top-level names to robot.egg-info/top_level.txt
+[1.470s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[1.471s] reading manifest file 'robot.egg-info/SOURCES.txt'
+[1.471s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[1.492s] [ 22%] Built target ament_cmake_python_build_robot_egg
+[1.501s] [ 22%] Built target robot__rosidl_generator_c
+[1.508s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.511s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.511s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.571s] [ 35%] [32mBuilding CXX object CMakeFiles/robot__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot/msg/motor_cmd__type_support.cpp.o[0m
+[1.587s] [ 38%] [32mBuilding CXX object CMakeFiles/robot__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot/msg/detail/motor_cmd__type_support.cpp.o[0m
+[1.592s] [ 41%] [32mBuilding CXX object CMakeFiles/robot__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o[0m
+[1.645s] [ 45%] [32mBuilding CXX object CMakeFiles/robot__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot/msg/motor_cmd__type_support.cpp.o[0m
+[1.660s] [ 48%] [32mBuilding C object CMakeFiles/robot__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot/msg/detail/motor_cmd__type_support.c.o[0m
+[1.661s] [ 51%] [32mBuilding CXX object CMakeFiles/robot__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot/msg/detail/motor_cmd__type_support_c.cpp.o[0m
+[1.670s] [ 54%] [32m[1mLinking CXX shared library librobot__rosidl_typesupport_c.so[0m
+[1.696s] [ 58%] [32m[1mLinking C shared library librobot__rosidl_typesupport_introspection_c.so[0m
+[1.702s] [ 58%] Built target robot__rosidl_typesupport_c
+[1.720s] [ 61%] [32m[1mLinking CXX shared library librobot__rosidl_typesupport_cpp.so[0m
+[1.721s] [ 61%] Built target robot__rosidl_typesupport_introspection_c
+[1.750s] [ 61%] Built target robot__rosidl_typesupport_cpp
+[1.801s] [ 64%] [32m[1mLinking CXX shared library librobot__rosidl_typesupport_introspection_cpp.so[0m
+[1.821s] [ 67%] [32m[1mLinking CXX shared library librobot__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.850s] [ 70%] Built target robot__rosidl_typesupport_introspection_cpp
+[1.850s] [ 70%] [32m[1mLinking CXX shared library librobot__rosidl_typesupport_fastrtps_c.so[0m
+[1.874s] [ 70%] Built target robot__rosidl_typesupport_fastrtps_cpp
+[1.901s] [ 70%] Built target robot__rosidl_typesupport_fastrtps_c
+[1.924s] [ 70%] Built target robot
+[1.952s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.149s] [ 74%] Built target robot__py
+[2.168s] [ 77%] [32mBuilding C object CMakeFiles/robot__rosidl_generator_py.dir/rosidl_generator_py/robot/msg/_motor_cmd_s.c.o[0m
+[2.248s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot/librobot__rosidl_generator_py.so[0m
+[2.286s] [ 80%] Built target robot__rosidl_generator_py
+[2.311s] [ 83%] [32mBuilding C object CMakeFiles/robot__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot/_robot_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.312s] [ 87%] [32mBuilding C object CMakeFiles/robot__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot/_robot_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.312s] [ 90%] [32mBuilding C object CMakeFiles/robot__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot/_robot_s.ep.rosidl_typesupport_c.c.o[0m
+[2.374s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot/robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.374s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot/robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.375s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot/robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.399s] [100%] Built target robot__rosidl_typesupport_fastrtps_c__pyext
+[2.399s] [100%] Built target robot__rosidl_typesupport_introspection_c__pyext
+[2.399s] [100%] Built target robot__rosidl_typesupport_c__pyext
+[2.408s] Invoked command in '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot -- -j28 -l28
+[2.421s] Invoking command in '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot
+[2.433s] -- Install configuration: ""
+[2.433s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/ament_index/resource_index/rosidl_interfaces/robot
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__functions.h
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__struct.h
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__functions.c
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__type_support.h
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/motor_cmd.h
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/rosidl_generator_c__visibility_control.h
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/environment/library_path.sh
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/environment/library_path.dsv
+[2.434s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_generator_c.so
+[2.434s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_generator_c.so" to ""
+[2.434s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot
+[2.435s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg
+[2.435s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.435s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail
+[2.435s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[2.435s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_fastrtps_c.so
+[2.435s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_fastrtps_c.so" to ""
+[2.435s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot
+[2.435s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg
+[2.435s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail
+[2.435s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__type_support.c
+[2.435s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[2.435s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.435s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_introspection_c.so
+[2.435s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_introspection_c.so" to ""
+[2.436s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_c.so
+[2.436s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_c.so" to ""
+[2.436s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot
+[2.436s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg
+[2.436s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/motor_cmd.hpp
+[2.436s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail
+[2.436s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__builder.hpp
+[2.436s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__type_support.hpp
+[2.436s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__struct.hpp
+[2.436s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__traits.hpp
+[2.436s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.436s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot
+[2.436s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg
+[2.437s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail
+[2.437s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/dds_fastrtps
+[2.437s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[2.437s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.437s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_fastrtps_cpp.so
+[2.437s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.437s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot
+[2.437s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg
+[2.437s] -- Up-to-date: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail
+[2.437s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[2.437s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/include/robot/robot/msg/detail/motor_cmd__type_support.cpp
+[2.437s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_introspection_cpp.so
+[2.437s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_introspection_cpp.so" to ""
+[2.437s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_cpp.so
+[2.438s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_typesupport_cpp.so" to ""
+[2.438s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/environment/pythonpath.sh
+[2.438s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/environment/pythonpath.dsv
+[2.438s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot-0.0.0-py3.10.egg-info
+[2.438s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.438s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot-0.0.0-py3.10.egg-info/PKG-INFO
+[2.438s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.438s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot-0.0.0-py3.10.egg-info/top_level.txt
+[2.438s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot
+[2.438s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/__init__.py
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/_robot_s.ep.rosidl_typesupport_introspection_c.c
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/msg
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/msg/__init__.py
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/msg/_motor_cmd_s.c
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/msg/_motor_cmd.py
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/_robot_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/librobot__rosidl_generator_py.so
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/_robot_s.ep.rosidl_typesupport_c.c
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.439s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.467s] Listing '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot'...
+[2.467s] Compiling '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/__init__.py'...
+[2.467s] Listing '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/msg'...
+[2.467s] Compiling '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/msg/__init__.py'...
+[2.467s] Compiling '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/msg/_motor_cmd.py'...
+[2.470s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.470s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/robot_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.470s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.470s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/robot_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.470s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.471s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/local/lib/python3.10/dist-packages/robot/robot_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_generator_py.so
+[2.471s] -- Set runtime path of "/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/lib/librobot__rosidl_generator_py.so" to ""
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/msg/MotorCmd.idl
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/msg/MotorCmd.msg
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/ament_index/resource_index/package_run_dependencies/robot
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/ament_index/resource_index/parent_prefix_path/robot
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/environment/ament_prefix_path.sh
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/environment/ament_prefix_path.dsv
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/environment/path.sh
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/environment/path.dsv
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/local_setup.bash
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/local_setup.sh
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/local_setup.zsh
+[2.471s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/local_setup.dsv
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/package.dsv
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/ament_index/resource_index/packages/robot
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/export_robot__rosidl_generator_cExport.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/export_robot__rosidl_generator_cExport-noconfig.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/export_robot__rosidl_typesupport_fastrtps_cExport.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/export_robot__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/robot__rosidl_typesupport_introspection_cExport.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/robot__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/robot__rosidl_typesupport_cExport.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/robot__rosidl_typesupport_cExport-noconfig.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/export_robot__rosidl_generator_cppExport.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/export_robot__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/export_robot__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/robot__rosidl_typesupport_introspection_cppExport.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/robot__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.472s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/robot__rosidl_typesupport_cppExport.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/robot__rosidl_typesupport_cppExport-noconfig.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/export_robot__rosidl_generator_pyExport.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/export_robot__rosidl_generator_pyExport-noconfig.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/rosidl_cmake-extras.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/ament_cmake_export_libraries-extras.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/ament_cmake_export_targets-extras.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/robotConfig.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/cmake/robotConfig-version.cmake
+[2.473s] -- Installing: /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/install/robot/share/robot/package.xml
+[2.475s] Invoked command in '/home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaming/Documents/CUHKLRL/unitree_sdk2_dev/ros2_ws/build/robot

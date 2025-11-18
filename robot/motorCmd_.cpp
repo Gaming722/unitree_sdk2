@@ -15,7 +15,7 @@ namespace core{
 namespace cdr{
 
 template<>
-propvec &get_type_props<::ROBOT::msg::dds_::MotorCmd_>() {
+propvec &get_type_props<::robot::msg::dds_::MotorCmd_>() {
   static thread_local std::mutex mtx;
   static thread_local propvec props;
   static thread_local entity_properties_t *props_end = nullptr;

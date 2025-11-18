@@ -1,4 +1,4 @@
-module ROBOT
+module robot
 {
     module msg
     {

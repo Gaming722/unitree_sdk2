@@ -11,7 +11,7 @@
 
 #include <array>
 
-namespace ROBOT
+namespace robot
 {
 namespace msg
 {
@@ -77,20 +77,20 @@ namespace eclipse {
 namespace cyclonedds {
 namespace topic {
 
-template <> constexpr const char* TopicTraits<::ROBOT::msg::dds_::MotorCmd_>::getTypeName()
+template <> constexpr const char* TopicTraits<::robot::msg::dds_::MotorCmd_>::getTypeName()
 {
-  return "ROBOT::msg::dds_::MotorCmd_";
+  return "robot::msg::dds_::MotorCmd_";
 }
 
-template <> constexpr bool TopicTraits<::ROBOT::msg::dds_::MotorCmd_>::isKeyless()
+template <> constexpr bool TopicTraits<::robot::msg::dds_::MotorCmd_>::isKeyless()
 {
   return true;
 }
 
 #ifdef DDSCXX_HAS_TYPE_DISCOVERY
-template<> constexpr unsigned int TopicTraits<::ROBOT::msg::dds_::MotorCmd_>::type_map_blob_sz() { return 354; }
-template<> constexpr unsigned int TopicTraits<::ROBOT::msg::dds_::MotorCmd_>::type_info_blob_sz() { return 100; }
-template<> inline const uint8_t * TopicTraits<::ROBOT::msg::dds_::MotorCmd_>::type_map_blob() {
+template<> constexpr unsigned int TopicTraits<::robot::msg::dds_::MotorCmd_>::type_map_blob_sz() { return 354; }
+template<> constexpr unsigned int TopicTraits<::robot::msg::dds_::MotorCmd_>::type_info_blob_sz() { return 100; }
+template<> inline const uint8_t * TopicTraits<::robot::msg::dds_::MotorCmd_>::type_map_blob() {
   static const uint8_t blob[] = {
  0x7e,  0x00,  0x00,  0x00,  0x01,  0x00,  0x00,  0x00,  0xf1,  0xd0,  0x54,  0x02,  0x8d,  0x97,  0xc6,  0x5e, 
  0x23,  0x13,  0xd0,  0x9d,  0xe4,  0x93,  0xad,  0x00,  0x66,  0x00,  0x00,  0x00,  0xf1,  0x51,  0x01,  0x00, 
@@ -100,10 +100,10 @@ template<> inline const uint8_t * TopicTraits<::ROBOT::msg::dds_::MotorCmd_>::ty
  0x01,  0x00,  0x00,  0x00,  0x01,  0x00,  0x90,  0xf3,  0x01,  0x00,  0x00,  0x00,  0x01,  0x00,  0x00,  0x00, 
  0x12,  0x09,  0x26,  0xb5,  0x68,  0xe4,  0x00,  0x00,  0x16,  0x00,  0x00,  0x00,  0x02,  0x00,  0x00,  0x00, 
  0x01,  0x00,  0x90,  0xf3,  0x01,  0x00,  0x00,  0x00,  0x01,  0x00,  0x00,  0x00,  0x12,  0x09,  0x45,  0x80, 
- 0xc2,  0x74,  0x00,  0x00,  0xb2,  0x00,  0x00,  0x00,  0x01,  0x00,  0x00,  0x00,  0xf2,  0x98,  0x02,  0xb4, 
- 0xb1,  0xb4,  0xbc,  0xf5,  0xed,  0x6d,  0x62,  0x9c,  0xfc,  0xbd,  0x8c,  0x00,  0x9a,  0x00,  0x00,  0x00, 
+ 0xc2,  0x74,  0x00,  0x00,  0xb2,  0x00,  0x00,  0x00,  0x01,  0x00,  0x00,  0x00,  0xf2,  0xa4,  0x67,  0x1b, 
+ 0x24,  0x23,  0x27,  0xa3,  0xbd,  0xd6,  0x08,  0x17,  0x86,  0xe0,  0x3e,  0x00,  0x9a,  0x00,  0x00,  0x00, 
  0xf2,  0x51,  0x01,  0x00,  0x24,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x1c,  0x00,  0x00,  0x00, 
- 0x52,  0x4f,  0x42,  0x4f,  0x54,  0x3a,  0x3a,  0x6d,  0x73,  0x67,  0x3a,  0x3a,  0x64,  0x64,  0x73,  0x5f, 
+ 0x72,  0x6f,  0x62,  0x6f,  0x74,  0x3a,  0x3a,  0x6d,  0x73,  0x67,  0x3a,  0x3a,  0x64,  0x64,  0x73,  0x5f, 
  0x3a,  0x3a,  0x4d,  0x6f,  0x74,  0x6f,  0x72,  0x43,  0x6d,  0x64,  0x5f,  0x00,  0x6a,  0x00,  0x00,  0x00, 
  0x03,  0x00,  0x00,  0x00,  0x1c,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x01,  0x00,  0x90,  0xf3, 
  0x01,  0x00,  0x00,  0x00,  0x01,  0x00,  0x00,  0x00,  0x12,  0x09,  0x00,  0x00,  0x02,  0x00,  0x00,  0x00, 
@@ -112,19 +112,19 @@ template<> inline const uint8_t * TopicTraits<::ROBOT::msg::dds_::MotorCmd_>::ty
  0x6b,  0x70,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x1e,  0x00,  0x00,  0x00,  0x02,  0x00,  0x00,  0x00, 
  0x01,  0x00,  0x90,  0xf3,  0x01,  0x00,  0x00,  0x00,  0x01,  0x00,  0x00,  0x00,  0x12,  0x09,  0x00,  0x00, 
  0x04,  0x00,  0x00,  0x00,  0x74,  0x61,  0x75,  0x00,  0x00,  0x00,  0x00,  0x00,  0x22,  0x00,  0x00,  0x00, 
- 0x01,  0x00,  0x00,  0x00,  0xf2,  0x98,  0x02,  0xb4,  0xb1,  0xb4,  0xbc,  0xf5,  0xed,  0x6d,  0x62,  0x9c, 
- 0xfc,  0xbd,  0x8c,  0xf1,  0xd0,  0x54,  0x02,  0x8d,  0x97,  0xc6,  0x5e,  0x23,  0x13,  0xd0,  0x9d,  0xe4, 
+ 0x01,  0x00,  0x00,  0x00,  0xf2,  0xa4,  0x67,  0x1b,  0x24,  0x23,  0x27,  0xa3,  0xbd,  0xd6,  0x08,  0x17, 
+ 0x86,  0xe0,  0x3e,  0xf1,  0xd0,  0x54,  0x02,  0x8d,  0x97,  0xc6,  0x5e,  0x23,  0x13,  0xd0,  0x9d,  0xe4, 
  0x93,  0xad, };
   return blob;
 }
-template<> inline const uint8_t * TopicTraits<::ROBOT::msg::dds_::MotorCmd_>::type_info_blob() {
+template<> inline const uint8_t * TopicTraits<::robot::msg::dds_::MotorCmd_>::type_info_blob() {
   static const uint8_t blob[] = {
  0x60,  0x00,  0x00,  0x00,  0x01,  0x10,  0x00,  0x40,  0x28,  0x00,  0x00,  0x00,  0x24,  0x00,  0x00,  0x00, 
  0x14,  0x00,  0x00,  0x00,  0xf1,  0xd0,  0x54,  0x02,  0x8d,  0x97,  0xc6,  0x5e,  0x23,  0x13,  0xd0,  0x9d, 
  0xe4,  0x93,  0xad,  0x00,  0x6a,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x04,  0x00,  0x00,  0x00, 
  0x00,  0x00,  0x00,  0x00,  0x02,  0x10,  0x00,  0x40,  0x28,  0x00,  0x00,  0x00,  0x24,  0x00,  0x00,  0x00, 
- 0x14,  0x00,  0x00,  0x00,  0xf2,  0x98,  0x02,  0xb4,  0xb1,  0xb4,  0xbc,  0xf5,  0xed,  0x6d,  0x62,  0x9c, 
- 0xfc,  0xbd,  0x8c,  0x00,  0x9e,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x04,  0x00,  0x00,  0x00, 
+ 0x14,  0x00,  0x00,  0x00,  0xf2,  0xa4,  0x67,  0x1b,  0x24,  0x23,  0x27,  0xa3,  0xbd,  0xd6,  0x08,  0x17, 
+ 0x86,  0xe0,  0x3e,  0x00,  0x9e,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x00,  0x04,  0x00,  0x00,  0x00, 
  0x00,  0x00,  0x00,  0x00, };
   return blob;
 }
@@ -139,18 +139,18 @@ namespace dds {
 namespace topic {
 
 template <>
-struct topic_type_name<::ROBOT::msg::dds_::MotorCmd_>
+struct topic_type_name<::robot::msg::dds_::MotorCmd_>
 {
     static std::string value()
     {
-      return org::eclipse::cyclonedds::topic::TopicTraits<::ROBOT::msg::dds_::MotorCmd_>::getTypeName();
+      return org::eclipse::cyclonedds::topic::TopicTraits<::robot::msg::dds_::MotorCmd_>::getTypeName();
     }
 };
 
 }
 }
 
-REGISTER_TOPIC_TYPE(::ROBOT::msg::dds_::MotorCmd_)
+REGISTER_TOPIC_TYPE(::robot::msg::dds_::MotorCmd_)
 
 namespace org{
 namespace eclipse{
@@ -159,10 +159,10 @@ namespace core{
 namespace cdr{
 
 template<>
-propvec &get_type_props<::ROBOT::msg::dds_::MotorCmd_>();
+propvec &get_type_props<::robot::msg::dds_::MotorCmd_>();
 
 template<typename T, std::enable_if_t<std::is_base_of<cdr_stream, T>::value, bool> = true >
-bool write(T& streamer, const ::ROBOT::msg::dds_::MotorCmd_& instance, entity_properties_t *props) {
+bool write(T& streamer, const ::robot::msg::dds_::MotorCmd_& instance, entity_properties_t *props) {
   (void)instance;
   if (!streamer.start_struct(*props))
     return false;
@@ -212,14 +212,14 @@ bool write(T& streamer, const ::ROBOT::msg::dds_::MotorCmd_& instance, entity_pr
 }
 
 template<typename S, std::enable_if_t<std::is_base_of<cdr_stream, S>::value, bool> = true >
-bool write(S& str, const ::ROBOT::msg::dds_::MotorCmd_& instance, bool as_key) {
-  auto &props = get_type_props<::ROBOT::msg::dds_::MotorCmd_>();
+bool write(S& str, const ::robot::msg::dds_::MotorCmd_& instance, bool as_key) {
+  auto &props = get_type_props<::robot::msg::dds_::MotorCmd_>();
   str.set_mode(cdr_stream::stream_mode::write, as_key);
   return write(str, instance, props.data()); 
 }
 
 template<typename T, std::enable_if_t<std::is_base_of<cdr_stream, T>::value, bool> = true >
-bool read(T& streamer, ::ROBOT::msg::dds_::MotorCmd_& instance, entity_properties_t *props) {
+bool read(T& streamer, ::robot::msg::dds_::MotorCmd_& instance, entity_properties_t *props) {
   (void)instance;
   if (!streamer.start_struct(*props))
     return false;
@@ -269,14 +269,14 @@ bool read(T& streamer, ::ROBOT::msg::dds_::MotorCmd_& instance, entity_propertie
 }
 
 template<typename S, std::enable_if_t<std::is_base_of<cdr_stream, S>::value, bool> = true >
-bool read(S& str, ::ROBOT::msg::dds_::MotorCmd_& instance, bool as_key) {
-  auto &props = get_type_props<::ROBOT::msg::dds_::MotorCmd_>();
+bool read(S& str, ::robot::msg::dds_::MotorCmd_& instance, bool as_key) {
+  auto &props = get_type_props<::robot::msg::dds_::MotorCmd_>();
   str.set_mode(cdr_stream::stream_mode::read, as_key);
   return read(str, instance, props.data()); 
 }
 
 template<typename T, std::enable_if_t<std::is_base_of<cdr_stream, T>::value, bool> = true >
-bool move(T& streamer, const ::ROBOT::msg::dds_::MotorCmd_& instance, entity_properties_t *props) {
+bool move(T& streamer, const ::robot::msg::dds_::MotorCmd_& instance, entity_properties_t *props) {
   (void)instance;
   if (!streamer.start_struct(*props))
     return false;
@@ -326,14 +326,14 @@ bool move(T& streamer, const ::ROBOT::msg::dds_::MotorCmd_& instance, entity_pro
 }
 
 template<typename S, std::enable_if_t<std::is_base_of<cdr_stream, S>::value, bool> = true >
-bool move(S& str, const ::ROBOT::msg::dds_::MotorCmd_& instance, bool as_key) {
-  auto &props = get_type_props<::ROBOT::msg::dds_::MotorCmd_>();
+bool move(S& str, const ::robot::msg::dds_::MotorCmd_& instance, bool as_key) {
+  auto &props = get_type_props<::robot::msg::dds_::MotorCmd_>();
   str.set_mode(cdr_stream::stream_mode::move, as_key);
   return move(str, instance, props.data()); 
 }
 
 template<typename T, std::enable_if_t<std::is_base_of<cdr_stream, T>::value, bool> = true >
-bool max(T& streamer, const ::ROBOT::msg::dds_::MotorCmd_& instance, entity_properties_t *props) {
+bool max(T& streamer, const ::robot::msg::dds_::MotorCmd_& instance, entity_properties_t *props) {
   (void)instance;
   if (!streamer.start_struct(*props))
     return false;
@@ -383,8 +383,8 @@ bool max(T& streamer, const ::ROBOT::msg::dds_::MotorCmd_& instance, entity_prop
 }
 
 template<typename S, std::enable_if_t<std::is_base_of<cdr_stream, S>::value, bool> = true >
-bool max(S& str, const ::ROBOT::msg::dds_::MotorCmd_& instance, bool as_key) {
-  auto &props = get_type_props<::ROBOT::msg::dds_::MotorCmd_>();
+bool max(S& str, const ::robot::msg::dds_::MotorCmd_& instance, bool as_key) {
+  auto &props = get_type_props<::robot::msg::dds_::MotorCmd_>();
   str.set_mode(cdr_stream::stream_mode::max, as_key);
   return max(str, instance, props.data()); 
 }

@@ -11,11 +11,11 @@ using namespace unitree::common;
 int main()
 {
     // ROBOT::MotorCmd _motorCmd{};
-    ROBOT::msg::dds_::MotorCmd_ _motorCmd{};
+    robot::msg::dds_::MotorCmd_ _motorCmd{};
 
     ChannelFactory::Instance()->Init(0);
     // ChannelPublisher<ROBOT::MotorCmd> publisher(TOPIC);
-    ChannelPublisher<ROBOT::msg::dds_::MotorCmd_> publisher(TOPIC);
+    ChannelPublisher<robot::msg::dds_::MotorCmd_> publisher(TOPIC);
 
     publisher.InitChannel();
 
