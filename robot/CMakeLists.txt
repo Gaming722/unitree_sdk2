@@ -1,6 +1,6 @@
 add_executable(test_robot_pub
     pub.cpp 
-    motorCmd.cpp
+    motorCmd_.cpp
 )
 
 target_link_libraries(test_robot_pub unitree_sdk2)

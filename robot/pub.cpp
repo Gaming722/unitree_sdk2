@@ -1,6 +1,7 @@
 #include <unitree/robot/channel/channel_publisher.hpp>
 #include <unitree/common/time/time_tool.hpp>
 #include "motorCmd.hpp"
+#include "motorCmd_.hpp"
 
 #define TOPIC "rt/motorCmd"
 
@@ -9,10 +10,12 @@ using namespace unitree::common;
 
 int main()
 {
-    ROBOT::MotorCmd _motorCmd{};
+    // ROBOT::MotorCmd _motorCmd{};
+    ROBOT::msg::dds_::MotorCmd_ _motorCmd{};
 
     ChannelFactory::Instance()->Init(0);
-    ChannelPublisher<ROBOT::MotorCmd> publisher(TOPIC);
+    // ChannelPublisher<ROBOT::MotorCmd> publisher(TOPIC);
+    ChannelPublisher<ROBOT::msg::dds_::MotorCmd_> publisher(TOPIC);
 
     publisher.InitChannel();
 

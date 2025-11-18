@@ -1,0 +1,15 @@
+module ROBOT
+{
+    module msg
+    {
+        module dds_
+        {
+            struct MotorCmd_
+            {
+            float _q[18];
+            float _kp[18];
+            float _tau[18];
+            };
+        };
+    };
+};
